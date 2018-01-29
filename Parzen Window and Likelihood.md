@@ -1,6 +1,6 @@
 About Parzen Window and Likelihood
 ========
-[Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf) code[http://www.github.com/goodfeli/adversarial]
+[Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf) [code](http://www.github.com/goodfeli/adversarial)
 
 
 对Ian提到的采用Gassian Parzen Window 去拟合G产生的样本并估计对数似然性(即给予观察样本，判断模型正确的可能性)如何实现的原理很感兴趣？
