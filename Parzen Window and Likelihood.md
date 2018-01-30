@@ -63,7 +63,7 @@ def theano_parzen(mu, sigma):
 
     return theano.function([x], E - Z)
 ```
-这个函数用于创造一个parzen的计算器，其中x的大小为2D向量，通过dimshuffule来变为Ax1xB 这样的向量，mu为图像的所有像素的值，sigma对于所有维都是固定的均为sigma。通过创造一个log_mean_exp函数计算平均值，这是最诡异的地方。你们感受下，T.log与T.exp难道不是一对相反的操作，等于没有操作，然后减去max加上max这是要干嘛？？
+这个函数用于创造一个parzen的计算器，其中x的大小为2D向量，通过dimshuffule来变为Ax1xB 这样的向量，mu为图像的所有像素的值，sigma对于所有维都是固定的均为sigma。通过创造一个log_mean_exp函数计算平均值
 
 ```
 def log_mean_exp(a):
