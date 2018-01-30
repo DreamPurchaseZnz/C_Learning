@@ -41,12 +41,6 @@ About Parzen Window and Likelihood
 可能性其实就是所有采的样本在你所建立的模型中概率的乘积，让这个乘积最大就是最大似然法，而为了计算方便，采用对数的方法，将
 乘积运算转换为加法运算。
 
-![4](https://wikimedia.org/api/rest_v1/media/math/render/svg/d1dfbf94c2412b4a52dc41c91044495c24ed2dee)
-
-![6](https://wikimedia.org/api/rest_v1/media/math/render/svg/c563da5e65831f45e5467a00e21d3014197847ff)
-
-![7](https://wikimedia.org/api/rest_v1/media/math/render/svg/b2946dec76f55f04c9f6b9510d54743c5d81a62d)
-
 ## 对parzen_ll的理解
 终于到了主题：
 ```
