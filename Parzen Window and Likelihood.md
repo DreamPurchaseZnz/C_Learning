@@ -2,6 +2,7 @@ About Parzen Window and Likelihood
 ========
 [Generative Adversarial Nets](https://arxiv.org/pdf/1406.2661.pdf) [code](http://www.github.com/goodfeli/adversarial)
 
+[Nice explanation](http://sebastianraschka.com/Articles/2014_kernel_density_est.html#Summarizing-the-implementation-of-the-Parzen-window%20estimation-with-a-hypercube-kernel)
 
 对Ian提到的采用Gassian Parzen Window 去拟合G产生的样本并估计对数似然性(即给予观察样本，判断模型正确的可能性)如何实现的原理很感兴趣？
 于是找到源代码[parzen_ll.py](https://github.com/goodfeli/adversarial/blob/master/parzen_ll.py)来看，
