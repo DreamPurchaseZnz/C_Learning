@@ -49,6 +49,20 @@ Input/Output with files
 ```
 ## Compiler
 
+Computers understand only one language and that language consists of sets of instructions made of ones and zeros. This computer language is appropriately called machine language.
+
+Because a computer can only understand *machine language* and humans wish to write in *high level languages* and high level languages have to be re-written (translated) into machine language at some point. 
+
+This is done by special programs called *compilers*, interpreters, or assemblers that are built into the various programming applications.
+
+## Console programs
+Integrated Development Environment (IDE)
+
+ An IDE generally integrates several development tools, including *a text editor* and *tools to compile programs directly from it*.
+ 
+
+
+
 
 
 
