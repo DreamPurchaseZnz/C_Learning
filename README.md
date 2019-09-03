@@ -4,9 +4,10 @@
 ## Reference
 [C++ tutorial](http://www.cplusplus.com/doc/tutorial/)
 
-C++ Language
-These tutorials explain the C++ language from its basics up to the newest features introduced by C++11. Chapters have a practical orientation, with example programs in all sections to start practicing what is being explained right away.
+## structure of C++ Language
 
+These tutorials explain the C++ language from its basics up to the newest features introduced by C++11. Chapters have a practical orientation, with example programs in all sections to start practicing what is being explained right away.
+```
 Introduction
 Compilers
 
@@ -45,7 +46,7 @@ Preprocessor directives
 
 C++ Standard Library
 Input/Output with files
-
+```
 ## Compiler
 
 
